@@ -8,5 +8,6 @@ class map
 public:
 	map();
 	~map();
+	void printMap();
 };
 

@@ -149,12 +149,12 @@
     <ClInclude Include="..\..\..\..\..\Desktop\a\Input.inl.hh" />
     <ClInclude Include="..\..\..\..\..\Desktop\a\Renderer.hh" />
     <ClInclude Include="map.h" />
-    <ClInclude Include="player.h" />
+    <ClInclude Include="entio.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\..\Desktop\a\Renderer.cc" />
     <ClCompile Include="map.cpp" />
-    <ClCompile Include="player.cpp" />
+    <ClCompile Include="entio.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

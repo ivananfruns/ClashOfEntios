@@ -1,5 +1,5 @@
 #pragma once
-class player
+class entio
 {
 	struct pos
 	{
@@ -11,9 +11,9 @@ class player
 	char representation;
 public:
 	void atacar();
-	void atacarEspada();
+	void atacarEspada(int direccio);
 	void atacarArco();
-	player(int posx, int posy, char rep);
-	~player();
+	entio(int posx, int posy, char rep);
+	~entio();
 };
 
